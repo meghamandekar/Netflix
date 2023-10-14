@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign in Page</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        function validateForm() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            // Simulated authentication (replace with your actual authentication logic)
+            if (email === "dipeshlokare02@gmail.com" && password === "dipesh123") {
+                // Redirect to the dashboard page after successful login
+                window.location.href = "index.html";
+                return false; // Prevent form submission
+            } else {
+                alert("Invalid email or password. Please try again.");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="">
+    </div>
+
+    <div class="container">
+        <h1>Sign In</h1>
+        <div class="form">
+            <input type="name" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="submit" value="Sign In" onclick="return validateForm()">
+            <input type="checkbox">
+            <label>Remember me</label>
+            <a href="forgotpassword.html">Forgot Password?</a>
+        </div>
+        <div class="content">
+            <h2>New to Netflix? <a href="#">Sign up now.</a> </h2> <br>
+        </div>
+    </div>
+</body>
+</html>

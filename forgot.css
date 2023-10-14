@@ -1,0 +1,56 @@
+body{
+    background-image: url('https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix-640x360.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family: Sans-Serif;
+  }
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 25px;
+    border-radius: 0.8rem;
+    background-color: rgb(0, 0, 0);
+  }
+  .wrapper img{
+    width: 100px;
+  }
+  .wrapper h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .wrapper h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  .wrapper .field {
+    height: 60px;
+  }
+  .wrapper input[ type = text ]{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    padding-left: 35px;
+  }
+  .wrapper span{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+  }
+  .wrapper button {
+    width: 290px;
+    height: 35px;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: rgb(215, 0, 0);
+  }
+  .link1 a{
+    text-decoration: none;
+    color: #ffffff;
+  }
